@@ -50,4 +50,40 @@ public class NumeroTest {
         /* Comparamos los resultados */
         Assert.assertEquals(numero.getValor(), Uno);
     }
+
+    /**
+     * Metodo que evalua si al iniciar la instancia por defecto, luego podemos cambiar su valor
+     */
+    @Test
+    public void IniciaPorDefectoYCambiaAUno(){
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero();
+
+        /* Asignamos un nuevo valor a la instancia */
+        numero.setValor(Uno);
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Uno);
+    }
+
+    /**
+     * Metodo que evalua si al iniciar una instancia en un valor, este puede cambiarse
+     */
+    @Test
+    public void IniciaEnUnoYCambiaAZero(){
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero(Uno);
+
+        /* Asignamos un nuevo valor a la instancia */
+        numero.setValor(Zero);
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Zero);
+    }
 }

@@ -180,9 +180,62 @@ En [**Numero.java**]
 ```java
     /**
      * Constructor de la instancia
-     * @param valor valor que se le asignara a la instancia
+     * @param valor - valor que se le asignara a la instancia
      */
     public Numero(int valor) {
         this.valor = valor;
+    }
+```
+
+## Paso - 3
+
+Ya tenemos iniciada nuestra instancia, pero en el tiempo nuestro objeto deberia poder mutar, parte de la POO, por ende necesitamos modificar el valor de nuestro numero y verificar que este cambio, aqui tenemos dos situaciones:
+
+1. Inicia por defecto y cambia a un valor...
+2. Inicia con un valor y cambia a otro valor...
+
+Para el primer caso, necesitamos una prueba como la siguiente:
+
+En [**NumeroTest.java**]
+```java
+    /**
+     * Metodo que evalua si al iniciar la instancia por defecto, luego podemos cambiar su valor
+     */
+    @Test
+    public void IniciaPorDefectoYCambiaAUno(){
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero();
+
+        /* Asignamos un nuevo valor a la instancia */
+        numero.setValor(Uno);
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Uno);
+    }
+```
+
+Y para el segundo caso, necesitamos una prueba como la siguiente:
+
+En [**NumeroTest.java**]
+```java
+    /**
+     * Metodo que evalua si al iniciar una instancia en un valor, este puede cambiarse
+     */
+    @Test
+    public void IniciaEnUnoYCambiaAZero(){
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero(Uno);
+
+        /* Asignamos un nuevo valor a la instancia */
+        numero.setValor(Zero);
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Zero);
     }
 ```

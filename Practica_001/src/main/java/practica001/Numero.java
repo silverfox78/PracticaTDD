@@ -23,7 +23,7 @@ public class Numero {
 
     /**
      * Constructor de la instancia
-     * @param valor valor que se le asignara a la instancia
+     * @param valor - valor que se le asignara a la instancia
      */
     public Numero(int valor) {
         this.valor = valor;
@@ -35,5 +35,13 @@ public class Numero {
      */
     public int getValor() {
         return this.valor;
+    }
+
+    /**
+     * Permite asignar un valor al numero
+     * @param valor - nuevo valor del numero
+     */
+    public void setValor(int valor) {
+        this.valor = valor;
     }
 }
