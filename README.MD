@@ -1,11 +1,12 @@
 [![Build Status](https://travis-ci.org/silverfox78/PracticaTDD.svg?branch=master)](https://travis-ci.org/silverfox78/PracticaTDD)
 [![Coverage Status](https://coveralls.io/repos/github/silverfox78/PracticaTDD/badge.svg)](https://coveralls.io/github/silverfox78/PracticaTDD)
+[![codecov](https://codecov.io/gh/silverfox78/PracticaTDD/branch/master/graph/badge.svg)](https://codecov.io/gh/silverfox78/PracticaTDD)
 
 # Practica 001
 
 En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, estos son:
 
-* [x] 1.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Practica_001/Ejercicio001.md)** Determinar si un número es negativo, positivo o cero.
+* [x] 1.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Ejercicio001.md)** Determinar si un número es negativo, positivo o cero.
 * [ ] 2.- Encontrar el perímetro (suma de los lados de un triángulo * cualquiera).
 * [ ] 3.- Contabilizar la lectura de números enteros positivos e imprimir el total leído.
 * [ ] 4.- Hallar el índice de masa muscular IMM (busque la formula) de una persona.
