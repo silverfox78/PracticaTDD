@@ -2,7 +2,7 @@
 
 En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, estos son:
 
-* [ ] 1.- Determinar si un número es negativo, positivo o cero.
+* [ ] 1.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Practica_001/Ejercicio001.md)** Determinar si un número es negativo, positivo o cero.
 * [ ] 2.- Encontrar el perímetro (suma de los lados de un triángulo * cualquiera).
 * [ ] 3.- Contabilizar la lectura de números enteros positivos e imprimir el total leído.
 * [ ] 4.- Hallar el índice de masa muscular IMM (busque la formula) de una persona.
