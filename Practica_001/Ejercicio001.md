@@ -335,7 +335,7 @@ public class NumeroTest {
             this.numero = new Numero(Float.parseFloat(valor.toString()));
         }
 
-        if (nuevoValor!= null){
+        if (nuevoValor != null){
             this.numero.setValor(Float.parseFloat(nuevoValor.toString()));
         }
     }
