@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/silverfox78/PracticaTDD.svg?branch=master)](https://travis-ci.org/silverfox78/PracticaTDD)
+
 # Practica 001
 
 En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, estos son:
