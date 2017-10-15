@@ -1,4 +1,4 @@
-# Ejercicio n°1
+# Ejercicio N°1
 
 Que debemos probar al ver si un numero es positivo, negativo o cero?
 
