@@ -17,11 +17,15 @@ public class NumeroTest {
     private static final int Zero = 0;
 
     /**
+     * Valor tentativo de Uno
+     */
+    private static final int Uno = 1;
+
+    /**
      * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
-     * @throws Exception En caso de algun error incontrolado por la evaluacion
      */
     @Test
-    public void PoseeValorInicialEnZero() throws Exception{
+    public void PoseeValorInicialEnZero(){
         /* Generamos la instancia*/
         Numero numero;
 
@@ -30,5 +34,20 @@ public class NumeroTest {
 
         /* Comparamos los resultados */
         Assert.assertEquals(numero.getValor(), Zero);
+    }
+
+    /**
+     * Metodo que evalua si al iniciar en uno la instancia toma este valor
+     */
+    @Test
+    public void PoseeValorInicialEnUno(){
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero(Uno);
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Uno);
     }
 }

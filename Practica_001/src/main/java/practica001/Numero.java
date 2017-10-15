@@ -6,20 +6,27 @@ package practica001;
 public class Numero {
 
     /**
-     * Valor del numero
-     */
-    private int valor;
-
-    /**
      * Valor inicial por defecto
      */
     private static final int Zero = 0;
+    /**
+     * Valor del numero
+     */
+    private int valor;
 
     /**
      * Constructor por defecto de la instancia
      */
     public Numero() {
         this.valor = Zero;
+    }
+
+    /**
+     * Constructor de la instancia
+     * @param valor valor que se le asignara a la instancia
+     */
+    public Numero(int valor) {
+        this.valor = valor;
     }
 
     /**
