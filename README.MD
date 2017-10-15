@@ -1,8 +1,6 @@
 [![Build Status](https://travis-ci.org/silverfox78/PracticaTDD.svg?branch=master)](https://travis-ci.org/silverfox78/PracticaTDD)
-[![Coverage Status](https://coveralls.io/repos/github/silverfox78/PracticaTDD/badge.svg)](https://coveralls.io/github/silverfox78/PracticaTDD)
-[![codecov](https://codecov.io/gh/silverfox78/PracticaTDD/branch/master/graph/badge.svg)](https://codecov.io/gh/silverfox78/PracticaTDD)
 
-# Practica 001
+# Practica 001 - Ejercicios POO
 
 En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, estos son:
 

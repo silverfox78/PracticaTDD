@@ -29,5 +29,20 @@ public final class Constante {
          * Valor tentativo de menos uno
          */
         public static final float MenosUno = -1;
+
+        /**
+         * Equivale al numero tres
+         */
+        public static final float Tres = 3;
+    }
+
+    /**
+     * Mensaje de error del package
+     */
+    public final class MensajeError{
+        /**
+         * Mensaje de error ante un argumento errado
+         */
+        public static final String TrianguloArgumentoError = "El valor ingresado es errado.";
     }
 }

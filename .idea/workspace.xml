@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad8ba5e-5997-4a57-ada2-d8658832d1d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Numero.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practica001/Triangulo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Principal.class" afterPath="$PROJECT_DIR$/out/production/classes/Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante$Valores.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante$Valores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ejercicio001.md" afterPath="$PROJECT_DIR$/Ejercicio001.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/practica001/Numero.java" afterPath="$PROJECT_DIR$/src/main/java/practica001/Numero.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" afterPath="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Principal.java" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/practica001/Constante.java" afterPath="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
+      <file leaf-file-name="TrianguloTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="100" selection-end-column="5" />
+            <state relative-caret-position="347">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +78,52 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Triangulo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Triangulo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Constante.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="296">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -452,11 +497,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/practica001/Numero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/practica001/Triangulo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practica001/Triangulo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
       </list>
     </option>
   </component>
@@ -482,6 +530,9 @@
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -538,6 +589,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="practica001" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practica001" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -566,6 +638,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practica001" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -579,7 +654,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumeroTest">
+  <component name="RunManager" selected="JUnit.TrianguloTest">
     <configuration name="NumeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -592,6 +667,45 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="practica001" />
       <option name="MAIN_CLASS_NAME" value="practica001.NumeroTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="practica001_main" />
+      <envs />
+    </configuration>
+    <configuration name="TrianguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practica001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practica001_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="practica001" />
+      <option name="MAIN_CLASS_NAME" value="practica001.TrianguloTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -686,23 +800,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="practica001" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-    </configuration>
     <configuration name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="practica001" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-    </configuration>
-    <configuration name="build (3)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="practica001" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
       <setting name="vmparams" value="" />
@@ -727,20 +825,20 @@
       <setting name="debug" value="false" />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.build (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.build (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.build (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.build (5)" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.NumeroTest" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.build (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.build (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.build (5)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumeroTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Principal" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TrianguloTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NumeroTest" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.build (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.build (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.build (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TrianguloTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Principal" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumeroTest" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.build (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.build (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -758,32 +856,11 @@
       <option name="presentableId" value="Default" />
       <updated>1508031749216</updated>
       <workItem from="1508031756954" duration="10335000" />
-      <workItem from="1508044018477" duration="7304000" />
+      <workItem from="1508044018477" duration="11733000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumeroTest - 2017.10.15 at 13h 37m 51s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 13h 38m 01s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 13h 50m 51s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 14h 02m 15s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 14h 03m 02s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 14h 04m 21s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 14h 15m 38s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumeroTest - 2017.10.15 at 14h 17m 55s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
@@ -793,9 +870,30 @@
     <history-entry file="NumeroTest - 2017.10.15 at 14h 29m 10s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 28m 06s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 35m 43s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 44m 02s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 45m 31s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 47m 18s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 16h 53m 59s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2017.10.15 at 17h 22m 11s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17639000" />
+    <option name="totallyTimeSpent" value="22068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +916,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50385606" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49614397" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -930,14 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -946,26 +1036,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="183">
+          <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Triangulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
