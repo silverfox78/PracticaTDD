@@ -22,7 +22,13 @@ public class NumeroTest {
      */
     @Test
     public void PoseeValorInicialEnZero() throws Exception{
-        Numero numero = new Numero();
-        Assert.assertEquals(numero.getValor(), 0);
+        /* Generamos la instancia*/
+        Numero numero;
+
+        /* Inciamos la instancia */
+        numero = new Numero();
+
+        /* Comparamos los resultados */
+        Assert.assertEquals(numero.getValor(), Zero);
     }
 }
