@@ -216,7 +216,7 @@
   </patternset>
   
   <path id="practica001_main.module.sourcepath">
-    <dirset dir="${module.practica001_main.basedir}/src/main">
+    <dirset dir="${module.practica001_main.basedir}/Practica_001/src/main">
       <include name="java"/>
       <include name="resources"/>
     </dirset>
