@@ -72,3 +72,72 @@ Si miramos el codigo, veremos facilmente dos situaciones preocupantes...
 
 Asi que modificamos nuestro codigo para que este mas ordinado, esto debe hacerse a cada iteracion y debemos tratar de ser muy puristas en esto...
 
+La clase principal nos queda asi:
+
+```java
+package practica001;
+
+/**
+ * Clase destinada a contener un numero y las evaluaciones del mismo
+ */
+public class Numero {
+
+    /**
+     * Valor del numero
+     */
+    private int valor;
+
+    /**
+     * Valor inicial por defecto
+     */
+    private static final int Zero = 0;
+
+    /**
+     * Constructor por defecto de la instancia
+     */
+    public Numero() {
+        this.valor = Zero;
+    }
+
+    /**
+     * Propiedad de la variable numero, permite recuperar el valor de numero
+     * @return valor del numero
+     */
+    public int getValor() {
+        return this.valor;
+    }
+}
+```
+
+La clase de pruebas nos queda asi:
+
+```java
+package practica001;
+
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+/**
+ * Clase de prueba de la clase [Numero]
+ */
+public class NumeroTest {
+    /**
+     * Valor inicial de una instancia por defecto (0)
+     */
+    private static final int Zero = 0;
+
+    /**
+     * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
+     * @throws Exception En caso de algun error incontrolado por la evaluacion
+     */
+    @Test
+    public void PoseeValorInicialEnZero() throws Exception{
+        Numero numero = new Numero();
+        Assert.assertEquals(numero.getValor(), 0);
+    }
+}
+```
