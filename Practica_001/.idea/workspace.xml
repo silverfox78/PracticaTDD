@@ -55,7 +55,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Numero.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Numero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
@@ -641,17 +641,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508031749216</updated>
-      <workItem from="1508031756954" duration="8203000" />
+      <workItem from="1508031756954" duration="8549000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumeroTest - 2017.10.15 at 00h 01m 42s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.15 at 00h 13m 18s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumeroTest - 2017.10.15 at 00h 23m 15s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
@@ -676,9 +670,15 @@
     <history-entry file="NumeroTest - 2017.10.15 at 00h 58m 56s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 01h 08m 11s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 01h 08m 16s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8203000" />
+    <option name="totallyTimeSpent" value="8549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,6 +757,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -768,16 +778,6 @@
             <element signature="e#573#574#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
             <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
