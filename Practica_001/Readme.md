@@ -19,3 +19,9 @@ En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, est
 * [ ] 15.- Hallar la multiplicación de dos números enteros y positivos SIN USAR El OPERADOR *.
 * [ ] 16.- Diseñe un método que entregue el sueldo según valor hora y cantidad de horas trabajadas para un empleado específico. Use sobrecarga para contemplar un bono por hijo.
 * [ ] 17.- Implemente la multiplicación de fracciones. Para cada fracción contemple los atributos de tipo int: num (numerador) y den (denominador) respectivamente.
+
+---
+
+***Observacion:*** Lo ideal seria hacer todo esto en ingles, pero por un tema de claridad y pensando en los hispanos, optare por seguir en español (aunque es posible que se me escape mas de algo en ingles U___U!)...
+
+---
