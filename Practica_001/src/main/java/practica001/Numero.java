@@ -44,4 +44,13 @@ public class Numero {
     public void setValor(float valor) {
         this.valor = valor;
     }
+
+    public String DeterminaValor() {
+        String retorno = "Error";
+
+        if (this.valor > Zero){
+            retorno = "Positivo";
+        }
+        return retorno;
+    }
 }

@@ -341,3 +341,14 @@ public class NumeroTest {
     }
 }
 ```
+
+---
+
+# Paso - 4
+
+Ahora que nuestros metodos base estan operativos, pasamos a al problema en si, determinar si es **Positivo** , **Negativo** o **Cero** , para esto asumiremos que nos estan asignando un determinado valor al inicio y debemos responder ante el...
+
+## Caso I - Valor positivo
+
+Para esto asignaremos un valor positivo a la instancia y esta nos debera responder el texto **"Positivo"**
+

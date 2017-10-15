@@ -27,6 +27,11 @@ public class NumeroTest {
     private Numero numero;
 
     /**
+     * Texto de respuesta en caso de que el valor sea "Positivo"
+     */
+    private static final String Positivo = "Positivo";
+
+    /**
      * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
      */
     @Test
@@ -72,6 +77,15 @@ public class NumeroTest {
 
         /* Comparamos los resultados */
         Assert.assertTrue(this.numero.getValor() == Zero);
+    }
+
+    @Test
+    public void DetermiaQueElValorEsPositivo(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, Uno,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Positivo);
     }
 
     /**
