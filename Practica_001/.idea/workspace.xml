@@ -58,8 +58,8 @@
       <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="333">
+              <caret line="90" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,15 +70,15 @@
       <file leaf-file-name="Numero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            <state relative-caret-position="731">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -641,26 +641,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508031749216</updated>
-      <workItem from="1508031756954" duration="5974000" />
+      <workItem from="1508031756954" duration="7144000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumeroTest - 2017.10.14 at 23h 06m 09s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.14 at 23h 07m 47s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.14 at 23h 24m 08s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.14 at 23h 38m 22s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumeroTest - 2017.10.14 at 23h 38m 28s.xml">
-      <configuration name="NumeroTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumeroTest - 2017.10.14 at 23h 56m 49s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
@@ -676,9 +661,24 @@
     <history-entry file="NumeroTest - 2017.10.15 at 00h 26m 27s.xml">
       <configuration name="NumeroTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 00h 34m 27s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 00h 40m 44s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 00h 44m 45s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 00h 45m 30s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumeroTest - 2017.10.15 at 00h 45m 49s.xml">
+      <configuration name="NumeroTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5974000" />
+    <option name="totallyTimeSpent" value="7144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,23 +760,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Numero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="731">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="333">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

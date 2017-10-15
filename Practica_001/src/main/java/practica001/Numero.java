@@ -12,7 +12,7 @@ public class Numero {
     /**
      * Valor del numero
      */
-    private int valor;
+    private float valor;
 
     /**
      * Constructor por defecto de la instancia
@@ -25,7 +25,7 @@ public class Numero {
      * Constructor de la instancia
      * @param valor - valor que se le asignara a la instancia
      */
-    public Numero(int valor) {
+    public Numero(float valor) {
         this.valor = valor;
     }
 
@@ -33,7 +33,7 @@ public class Numero {
      * Propiedad de la variable numero, permite recuperar el valor de numero
      * @return valor del numero
      */
-    public int getValor() {
+    public float getValor() {
         return this.valor;
     }
 
@@ -41,7 +41,7 @@ public class Numero {
      * Permite asignar un valor al numero
      * @param valor - nuevo valor del numero
      */
-    public void setValor(int valor) {
+    public void setValor(float valor) {
         this.valor = valor;
     }
 }

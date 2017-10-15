@@ -14,12 +14,17 @@ public class NumeroTest {
     /**
      * Valor inicial de una instancia por defecto (0)
      */
-    private static final int Zero = 0;
+    private static final float Zero = 0;
 
     /**
      * Valor tentativo de Uno
      */
-    private static final int Uno = 1;
+    private static final float Uno = 1;
+
+    /**
+     * Variable de la instancia de numero
+     */
+    private Numero numero;
 
     /**
      * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
@@ -27,13 +32,10 @@ public class NumeroTest {
     @Test
     public void PoseeValorInicialEnZero(){
         /* Generamos la instancia*/
-        Numero numero;
-
-        /* Inciamos la instancia */
-        numero = new Numero();
+        this.GeneraInstancia(true, null, null);
 
         /* Comparamos los resultados */
-        Assert.assertEquals(numero.getValor(), Zero);
+        Assert.assertTrue(this.numero.getValor() == Zero);
     }
 
     /**
@@ -42,13 +44,10 @@ public class NumeroTest {
     @Test
     public void PoseeValorInicialEnUno(){
         /* Generamos la instancia*/
-        Numero numero;
-
-        /* Inciamos la instancia */
-        numero = new Numero(Uno);
+        this.GeneraInstancia(true, null, Uno);
 
         /* Comparamos los resultados */
-        Assert.assertEquals(numero.getValor(), Uno);
+        Assert.assertTrue(this.numero.getValor() == Uno);
     }
 
     /**
@@ -57,16 +56,10 @@ public class NumeroTest {
     @Test
     public void IniciaPorDefectoYCambiaAUno(){
         /* Generamos la instancia*/
-        Numero numero;
-
-        /* Inciamos la instancia */
-        numero = new Numero();
-
-        /* Asignamos un nuevo valor a la instancia */
-        numero.setValor(Uno);
+        this.GeneraInstancia(true, null, Uno);
 
         /* Comparamos los resultados */
-        Assert.assertEquals(numero.getValor(), Uno);
+        Assert.assertTrue(this.numero.getValor() == Uno);
     }
 
     /**
@@ -75,15 +68,27 @@ public class NumeroTest {
     @Test
     public void IniciaEnUnoYCambiaAZero(){
         /* Generamos la instancia*/
-        Numero numero;
-
-        /* Inciamos la instancia */
-        numero = new Numero(Uno);
-
-        /* Asignamos un nuevo valor a la instancia */
-        numero.setValor(Zero);
+        this.GeneraInstancia(false, Uno, Zero);
 
         /* Comparamos los resultados */
-        Assert.assertEquals(numero.getValor(), Zero);
+        Assert.assertTrue(this.numero.getValor() == Zero);
+    }
+
+    /**
+     * Metodo que genera la instancia del objeto
+     * @param inicioDefecto determina si inicia por defecto o con determinado valor
+     * @param valor de inicio de la instancia
+     * @param nuevoValor de la instancia
+     */
+    private void GeneraInstancia(boolean inicioDefecto, Object valor, Object nuevoValor){
+        if (inicioDefecto) {
+            this.numero = new Numero();
+        } else {
+            this.numero = new Numero(Float.parseFloat(valor.toString()));
+        }
+
+        if (nuevoValor!= null){
+            this.numero.setValor(Float.parseFloat(nuevoValor.toString()));
+        }
     }
 }
