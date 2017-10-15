@@ -59,3 +59,16 @@ public class Numero {
 ```
 
 Felicitaciones, hemos pasado nuestro primer test...
+Pero **TDD** nos dice que debemos iterar en tres simples pasos, estos son;
+
+1. Escribe la prueba [x] **Hecho...**
+2. Falla [x] **Hecho...**
+3. ReFactoriza [x] **¿Realmente esta hecho...?**
+
+Si miramos el codigo, veremos facilmente dos situaciones preocupantes...
+
+1. No hay comentarios de nuestro codigo
+2. Existen valores magicos (***Si no saben que es esto, los invito a visitar Google y averiguarlo...***)
+
+Asi que modificamos nuestro codigo para que este mas ordinado, esto debe hacerse a cada iteracion y debemos tratar de ser muy puristas en esto...
+
