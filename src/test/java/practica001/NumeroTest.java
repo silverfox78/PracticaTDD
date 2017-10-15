@@ -12,24 +12,9 @@ import static org.junit.Assert.*;
  */
 public class NumeroTest {
     /**
-     * Valor inicial de una instancia por defecto (0)
-     */
-    private static final float Zero = 0;
-
-    /**
-     * Valor tentativo de Uno
-     */
-    private static final float Uno = 1;
-
-    /**
      * Variable de la instancia de numero
      */
     private Numero numero;
-
-    /**
-     * Texto de respuesta en caso de que el valor sea "Positivo"
-     */
-    private static final String Positivo = "Positivo";
 
     /**
      * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
@@ -40,7 +25,7 @@ public class NumeroTest {
         this.GeneraInstancia(true, null, null);
 
         /* Comparamos los resultados */
-        Assert.assertTrue(this.numero.getValor() == Zero);
+        Assert.assertTrue(this.numero.getValor() == practica001.Constante.Valores.Zero);
     }
 
     /**
@@ -49,10 +34,10 @@ public class NumeroTest {
     @Test
     public void PoseeValorInicialEnUno(){
         /* Generamos la instancia*/
-        this.GeneraInstancia(true, null, Uno);
+        this.GeneraInstancia(true, null, practica001.Constante.Valores.Uno);
 
         /* Comparamos los resultados */
-        Assert.assertTrue(this.numero.getValor() == Uno);
+        Assert.assertTrue(this.numero.getValor() == practica001.Constante.Valores.Uno);
     }
 
     /**
@@ -61,10 +46,10 @@ public class NumeroTest {
     @Test
     public void IniciaPorDefectoYCambiaAUno(){
         /* Generamos la instancia*/
-        this.GeneraInstancia(true, null, Uno);
+        this.GeneraInstancia(true, null, practica001.Constante.Valores.Uno);
 
         /* Comparamos los resultados */
-        Assert.assertTrue(this.numero.getValor() == Uno);
+        Assert.assertTrue(this.numero.getValor() == practica001.Constante.Valores.Uno);
     }
 
     /**
@@ -73,19 +58,46 @@ public class NumeroTest {
     @Test
     public void IniciaEnUnoYCambiaAZero(){
         /* Generamos la instancia*/
-        this.GeneraInstancia(false, Uno, Zero);
+        this.GeneraInstancia(false, practica001.Constante.Valores.Uno, practica001.Constante.Valores.Zero);
 
         /* Comparamos los resultados */
-        Assert.assertTrue(this.numero.getValor() == Zero);
+        Assert.assertTrue(this.numero.getValor() == practica001.Constante.Valores.Zero);
     }
 
+    /**
+     * Metodo que evalua si el valor es positivo
+     */
     @Test
     public void DetermiaQueElValorEsPositivo(){
         /* Generamos la instancia*/
-        this.GeneraInstancia(false, Uno,null);
+        this.GeneraInstancia(false, practica001.Constante.Valores.Uno,null);
 
         /* Comparamos los resultados */
-        Assert.assertTrue(this.numero.DeterminaValor() == Positivo);
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Positivo.toString());
+    }
+
+    /**
+     * Metodo que evalua si el valor es negativo
+     */
+    @Test
+    public void DetermiaQueElValorEsNegativo(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, Constante.Valores.MenosUno,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Negativo.toString());
+    }
+
+    /**
+     * Metodo que evalua si el valor es cero
+     */
+    @Test
+    public void DetermiaQueElValorEsZero(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, Constante.Valores.Zero,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Cero.toString());
     }
 
     /**

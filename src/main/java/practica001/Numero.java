@@ -4,11 +4,6 @@ package practica001;
  * Clase destinada a contener un numero y las evaluaciones del mismo
  */
 public class Numero {
-
-    /**
-     * Valor inicial por defecto
-     */
-    private static final int Zero = 0;
     /**
      * Valor del numero
      */
@@ -17,9 +12,7 @@ public class Numero {
     /**
      * Constructor por defecto de la instancia
      */
-    public Numero() {
-        this.valor = Zero;
-    }
+    public Numero() { this.valor = practica001.Constante.Valores.Zero; }
 
     /**
      * Constructor de la instancia
@@ -45,12 +38,20 @@ public class Numero {
         this.valor = valor;
     }
 
+    /**
+     * Metodo destinado a determinar los valores de signo posibles de un numero
+     * @return signo del valores numerico
+     */
     public String DeterminaValor() {
-        String retorno = "Error";
+        /* determina el signo del numero */
+        int diferencia = Float.compare(this.valor, practica001.Constante.Valores.Zero);
 
-        if (this.valor > Zero){
-            retorno = "Positivo";
+        if (diferencia == practica001.Constante.Valores.Zero) {
+            return Constante.SignoValor.Cero.toString();
+        } else if (diferencia > practica001.Constante.Valores.Zero){
+            return Constante.SignoValor.Positivo.toString();
+        } else {
+            return Constante.SignoValor.Negativo.toString();
         }
-        return retorno;
     }
 }

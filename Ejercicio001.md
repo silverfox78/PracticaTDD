@@ -148,7 +148,7 @@ public class NumeroTest {
 
 ***
 
-**Acontar de este punto, solo comentare el codigo anexado o modificado...**
+**Acontar de este punto, solo comentare el codigo anexado o modificado..., salvo cuando haga falta**
 
 ***
 
@@ -352,3 +352,96 @@ Ahora que nuestros metodos base estan operativos, pasamos a al problema en si, d
 
 Para esto asignaremos un valor positivo a la instancia y esta nos debera responder el texto **"Positivo"**
 
+Pero en el proceso, refactorizaremos los valores constantes en una nueva clase y tras esto volvemos a refactorizar las pruebas y el metodo...
+
+En [**Constante.java**]
+```java
+package practica001;
+
+public final class Constante {
+    /**
+     * Valores posibles para identificar los signos de un numero
+     */
+    public enum SignoValor {
+        Error,
+        Positivo,
+        Cero,
+        Negativo;
+    }
+
+    /**
+     * Clase destinada a contener los valores que usara las clases del Package
+     */
+    public final class Valores{
+        /**
+         * Valor inicial por defecto
+         */
+        public static final int Zero = 0;
+
+        /**
+         * Valor tentativo de Uno
+         */
+        public static final float Uno = 1;
+
+        /**
+         * Valor tentativo de menos uno
+         */
+        public static final float MenosUno = -1;
+    }
+}
+```
+
+Volviendo a la prueba en si, esta quedaria asi:
+
+En [**NumeroTest.java**]
+```java
+    /**
+     * Metodo que evalua si el valor es positivo
+     */
+    @Test
+    public void DetermiaQueElValorEsPositivo(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, practica001.Constante.Valores.Uno,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Positivo.toString());
+    }
+```
+
+## Caso II - Valor negativo
+
+Para esto asignaremos un valor negativo a la instancia y esta nos debera responder el texto **"Negativo"**
+
+En [**NumeroTest.java**]
+```java
+    /**
+     * Metodo que evalua si el valor es negativo
+     */
+    @Test
+    public void DetermiaQueElValorEsNegativo(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, Constante.Valores.MenosUno,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Negativo.toString());
+    }
+```
+
+## Caso III - Valor cero
+
+Para esto asignaremos un valor cero a la instancia y esta nos debera responder el texto **"Cero"**
+
+En [**NumeroTest.java**]
+```java
+    /**
+     * Metodo que evalua si el valor es cero
+     */
+    @Test
+    public void DetermiaQueElValorEsZero(){
+        /* Generamos la instancia*/
+        this.GeneraInstancia(false, Constante.Valores.Zero,null);
+
+        /* Comparamos los resultados */
+        Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Cero.toString());
+    }
+```
