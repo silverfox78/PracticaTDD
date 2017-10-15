@@ -31,10 +31,6 @@ allprojects {
 }
 
 subprojects {
-    dependencies {
-        ...        
-    }
-
     test.useTestNG()
 }
 
