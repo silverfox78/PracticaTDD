@@ -1,5 +1,8 @@
 package practica001;
 
+/**
+ * Clase dispuesta para contener las constantes del Package
+ */
 public final class Constante {
     /**
      * Valores posibles para identificar los signos de un numero
