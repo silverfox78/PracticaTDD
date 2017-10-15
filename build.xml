@@ -236,11 +236,11 @@
     </javac2>
     
     <copy todir="${practica001_main.output.dir}">
-      <fileset dir="${module.practica001_main.basedir}/src/main/java">
+      <fileset dir="${module.practica001_main.basedir}/Practica_001/src/main/java">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
       </fileset>
-      <fileset dir="${module.practica001_main.basedir}/src/main/resources">
+      <fileset dir="${module.practica001_main.basedir}/Practica_001/src/main/resources">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
       </fileset>
