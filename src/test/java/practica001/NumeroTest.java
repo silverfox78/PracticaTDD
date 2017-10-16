@@ -2,6 +2,7 @@ package practica001;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 
 /**
  * Clase de prueba de la clase [Numero]
@@ -16,6 +17,7 @@ public class NumeroTest {
      * Metodo que evalua si al iniciar la instancia el valor del numero queda en cero
      */
     @Test
+    @DisplayName("Inicia la instancia con valores en uno.")
     public void PoseeValorInicialEnZero(){
         /* Generamos la instancia*/
         this.GeneraInstancia(true, null, null);

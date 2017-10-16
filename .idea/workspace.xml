@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad8ba5e-5997-4a57-ada2-d8658832d1d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante$MensajeError.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante$MensajeError.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante$SignoValor.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante$SignoValor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante$Valores.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante$Valores.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Constante.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Constante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/practica001/Triangulo.class" afterPath="$PROJECT_DIR$/out/production/classes/practica001/Triangulo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/practica001/TrianguloTest.class" afterPath="$PROJECT_DIR$/out/test/classes/practica001/TrianguloTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/practica001_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/practica001_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/practica001/Constante.java" afterPath="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/practica001/Triangulo.java" afterPath="$PROJECT_DIR$/src/main/java/practica001/Triangulo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" afterPath="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" afterPath="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" />
     </list>
@@ -66,7 +60,32 @@
     <favorites_list name="practica001" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TrianguloTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumeroTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -440,8 +459,8 @@
         <option value="$PROJECT_DIR$/src/test/java/practica001/Triangulo.java" />
         <option value="$PROJECT_DIR$/src/main/java/practica001/Constante.java" />
         <option value="$PROJECT_DIR$/src/main/java/practica001/Triangulo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
       </list>
     </option>
   </component>
@@ -499,6 +518,27 @@
               <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
               <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticaTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practica001" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -767,7 +807,7 @@
       <option name="presentableId" value="Default" />
       <updated>1508031749216</updated>
       <workItem from="1508031756954" duration="10335000" />
-      <workItem from="1508044018477" duration="14080000" />
+      <workItem from="1508044018477" duration="16192000" />
     </task>
     <servers />
   </component>
@@ -778,8 +818,8 @@
     <history-entry file="All_in_practica001_test - 2017.10.15 at 18h 04m 17s.xml">
       <configuration name="All in practica001_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrianguloTest - 2017.10.15 at 16h 28m 06s.xml">
-      <configuration name="TrianguloTest" configurationId="JUnit" />
+    <history-entry file="All_in_practica001_test - 2017.10.15 at 18h 15m 24s.xml">
+      <configuration name="All in practica001_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrianguloTest - 2017.10.15 at 16h 35m 43s.xml">
       <configuration name="TrianguloTest" configurationId="JUnit" />
@@ -804,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24415000" />
+    <option name="totallyTimeSpent" value="26527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,7 +866,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50385606" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49614397" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,7 +896,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -980,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -990,8 +1032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
