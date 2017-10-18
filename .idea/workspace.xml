@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad8ba5e-5997-4a57-ada2-d8658832d1d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/practica001/ContadorPositivoTest.class" afterPath="$PROJECT_DIR$/out/test/classes/practica001/ContadorPositivoTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Informacion/Ejercicio004.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,12 +63,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="136">
-                <caret line="8" column="104" lean-forward="true" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="104" lean-forward="true" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="177" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -75,12 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ejercicio002.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio002.md">
+      <file leaf-file-name="Ejercicio004.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio004.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,12 +89,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constante.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="42" />
-              <folding />
+      <file leaf-file-name="Ejercicio003.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio003.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding>
+                  <marker date="1508366154944" expanded="true" signature="811:852" ph="..." />
+                  <marker date="1508366154944" expanded="true" signature="939:1087" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="1184:1386" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="1480:1684" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="1782:1990" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="2052:2365" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="2436:2760" ph="{...}" />
+                  <marker date="1508366154944" expanded="true" signature="2958:2970" ph=" { " />
+                  <marker date="1508366154944" expanded="true" signature="3006:3013" ph=" }" />
+                  <marker date="1508366154944" expanded="true" signature="3046:3058" ph=" { " />
+                  <marker date="1508366154944" expanded="true" signature="3076:3083" ph=" }" />
+                  <marker date="1508366154944" expanded="true" signature="3129:3306" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -485,7 +502,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mensaje.java" />
         <option value="$PROJECT_DIR$/Informacion/poo_c001.md" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/NumeroTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/TrianguloTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/HumanoTest.java" />
@@ -493,6 +509,8 @@
         <option value="$PROJECT_DIR$/src/main/java/practica001/ContadorPositivo.java" />
         <option value="$PROJECT_DIR$/src/test/java/practica001/ContadorPositivoTest.java" />
         <option value="$PROJECT_DIR$/Informacion/Ejercicio003.md" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/Informacion/Ejercicio004.md" />
       </list>
     </option>
   </component>
@@ -877,7 +895,7 @@
       <workItem from="1508189348640" duration="1325000" />
       <workItem from="1508278249109" duration="1508000" />
       <workItem from="1508331055835" duration="5383000" />
-      <workItem from="1508364842129" duration="1410000" />
+      <workItem from="1508364842129" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="Actualizacion">
       <created>1508366237218</created>
@@ -922,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39248000" />
+    <option name="totallyTimeSpent" value="39837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,11 +963,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.50578403" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2062982" sideWeight="0.36783734" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810812" sideWeight="0.49421594" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810812" sideWeight="0.49421594" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49614397" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14460154" sideWeight="0.4919355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14460154" sideWeight="0.4919355" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17802057" sideWeight="0.18309858" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1061,7 +1079,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,7 +1089,7 @@
         <state relative-caret-position="323">
           <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1105,7 +1123,7 @@
         <state relative-caret-position="119">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1115,7 +1133,7 @@
         <state relative-caret-position="1309">
           <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1133,7 +1151,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1143,7 +1161,7 @@
         <state relative-caret-position="289">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1312,7 +1330,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1322,7 +1340,7 @@
         <state relative-caret-position="-1314">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1332,7 +1350,7 @@
         <state relative-caret-position="498">
           <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1342,7 +1360,7 @@
         <state relative-caret-position="306">
           <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1371,25 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio002.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practica001/ContadorPositivoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1410,11 +1409,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio002.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practica001/Constante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio003.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding>
               <marker date="1508366154944" expanded="true" signature="811:852" ph="..." />
               <marker date="1508366154944" expanded="true" signature="939:1087" ph="{...}" />
@@ -1437,8 +1455,19 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="104" lean-forward="true" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="104" lean-forward="true" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="177" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Informacion/Ejercicio004.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
             <folding />
           </first_editor>
           <second_editor />

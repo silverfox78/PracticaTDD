@@ -6,7 +6,7 @@ En esta practica veremos algunos la evolucion de ciertos ejercicios de Java, est
 
 * [x] 1.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio001.md)** Determinar si un número es negativo, positivo o cero.
 * [x] 2.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio002.md)** Encontrar el perímetro (suma de los lados de un triángulo * cualquiera).
-* [ ] 3.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio003.md)** Contabilizar la lectura de números enteros positivos e imprimir el total leído.
+* [x] 3.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio003.md)** Contabilizar la lectura de números enteros positivos e imprimir el total leído.
 * [ ] 4.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio004.md)** Hallar el índice de masa muscular IMM (busque la formula) de una persona.
 * [ ] 5.- **[Ver](https://github.com/silverfox78/PracticaTDD/blob/master/Informacion/Ejercicio005.md)** Hallar el valor absoluto de un número cualquiera.
 * [ ] 6.- Sumar los enteros desde 1 a ‘n’
