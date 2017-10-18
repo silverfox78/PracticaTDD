@@ -2,7 +2,6 @@ package practica001;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
 
 /**
  * Clase de prueba de la clase [Triangulo]
@@ -13,7 +12,6 @@ public class TrianguloTest {
      * Metodo destinado a evaluar la generacion de una instancia de un triangulo iniciando sus valores en uno
      */
     @Test
-    @DisplayName("Inicia la instancia con valores en uno.")
     public void GeneraInstanciaConUno(){
         Triangulo triangulo = new Triangulo(Constante.Valores.Uno, Constante.Valores.Uno, Constante.Valores.Uno);
         Assert.assertTrue(triangulo.getLadoA() == Constante.Valores.Uno);
@@ -25,7 +23,6 @@ public class TrianguloTest {
      * Metodo destinado a evaluar un error ante ingresar valores cero en la instancia
      */
     @Test(expected = IllegalArgumentException.class)
-    @DisplayName("Genera excepcion en caso de iniciar instancia en cero.")
     public void GeneraInstanciaConZero(){
         Triangulo triangulo = new Triangulo(Constante.Valores.Zero, Constante.Valores.Zero, Constante.Valores.Zero);
     }
@@ -34,7 +31,6 @@ public class TrianguloTest {
      * Metodo destinado a evaluar un error ante ingresar valores negativos en la instancia
      */
     @Test(expected = IllegalArgumentException.class)
-    @DisplayName("Genera excepcion en caso de iniciar instancia con valores negaivos.")
     public void GeneraInstanciaConNegativos(){
         Triangulo triangulo = new Triangulo(Constante.Valores.MenosUno, Constante.Valores.MenosUno, Constante.Valores.MenosUno);
     }
@@ -43,7 +39,6 @@ public class TrianguloTest {
      * Metodo dispuesto a evaluar la obtencion del perimetro de la instancia
      */
     @Test
-    @DisplayName("Obtiene el valor del perimetro del triangulo")
     public void ObtienePerimetro() {
         Triangulo triangulo = new Triangulo(Constante.Valores.Uno, Constante.Valores.Uno, Constante.Valores.Uno);
         float perimetro = triangulo.Perimetro();
