@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad8ba5e-5997-4a57-ada2-d8658832d1d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Informacion/Ejercicio004.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -895,7 +893,7 @@
       <workItem from="1508189348640" duration="1325000" />
       <workItem from="1508278249109" duration="1508000" />
       <workItem from="1508331055835" duration="5383000" />
-      <workItem from="1508364842129" duration="1999000" />
+      <workItem from="1508364842129" duration="2007000" />
     </task>
     <task id="LOCAL-00001" summary="Actualizacion">
       <created>1508366237218</created>
@@ -904,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508366237218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualizacion">
+      <created>1508366857816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508366857816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -940,7 +945,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39837000" />
+    <option name="totallyTimeSpent" value="39845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
