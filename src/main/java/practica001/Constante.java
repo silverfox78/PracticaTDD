@@ -37,6 +37,8 @@ public final class Constante {
          * Equivale al numero tres
          */
         public static final float Tres = 3;
+
+        public static final float Seis = 6;
     }
 
     /**

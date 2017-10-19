@@ -54,4 +54,8 @@ public class Numero {
             return Constante.SignoValor.Negativo.toString();
         }
     }
+
+    public float ValorAbsoluto() {
+        return java.lang.Math.abs(this.valor);
+    }
 }

@@ -96,6 +96,18 @@ public class NumeroTest {
         Assert.assertTrue(this.numero.DeterminaValor() == Constante.SignoValor.Cero.toString());
     }
 
+    @Test
+    public void ValidaValorAbsolutoDeUnValorNegativo(){
+        this.GeneraInstancia(false, Constante.Valores.MenosUno,null);
+        Assert.assertTrue(this.numero.ValorAbsoluto() == Constante.Valores.Uno);
+    }
+
+    @Test
+    public void ValidaValorAbsolutoDeUnValorPositivo(){
+        this.GeneraInstancia(false, Constante.Valores.Uno,null);
+        Assert.assertTrue(this.numero.ValorAbsoluto() == Constante.Valores.Uno);
+    }
+
     /**
      * Metodo que genera la instancia del objeto
      * @param inicioDefecto determina si inicia por defecto o con determinado valor
