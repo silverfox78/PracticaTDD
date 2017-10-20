@@ -26,4 +26,14 @@ public class Sumatoria {
 
         return (int) numero.getValor();
     }
+
+    public int ObtieneResultadoV2() {
+        int numero = 0;
+
+        for (int i = 1; i <= this.valorTermino; i++){
+            numero += i;
+        }
+
+        return numero;
+    }
 }

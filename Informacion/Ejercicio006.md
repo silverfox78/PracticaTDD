@@ -88,5 +88,23 @@ public class Sumatoria {
         return (int) numero.getValor();
     }
 }
+```
 
+---
+
+## Alternativa
+
+Otra forma mas sencilla de cubrir el requerimiento, pero sin pensar en un objeto sino en la funcionalidad seria con un metodo como el siguiente:
+
+En [**Sumatoria.java**]
+```java
+    public int ObtieneResultadoV2() {
+        int numero = 0;
+
+        for (int i = 1; i <= this.valorTermino; i++){
+            numero += i;
+        }
+
+        return numero;
+    }
 ```
